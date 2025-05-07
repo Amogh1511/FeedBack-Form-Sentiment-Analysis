@@ -8,6 +8,7 @@ Tesseract OCR (for text extraction)
 PyMuPDF (for PDF processing)
 python-docx (for DOCX processing)
 PIL/OpenCV (for image handling)
+Visual Studio code
 
 Model Working 
 The user uploads a feedback file. The app extracts the text using OCR or file parsers, processes the text, and uses a pre-trained BERT model to classify the sentiment. The result is shown instantly on the Streamlit interface.
@@ -18,3 +19,5 @@ Extract text using OCR or text parsers
 Clean and preprocess text
 Analyze sentiment using the BERT model
 Display sentiment result on the interface
+
+Run the model through the VS code rather than Jupyter Notebook
